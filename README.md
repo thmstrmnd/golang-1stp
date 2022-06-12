@@ -1,1 +1,1 @@
-# golang-first-principles
+# 1stp-golang
