@@ -1,12 +1,12 @@
 package main
 
 import (
-	Tasks "1stp-golang/tasks"
+	"1stp-golang/tasks"
 	"fmt"
 )
 
 func main() {
-	tasks := Tasks.StringToInt()
+	tasks := tasks.DecNumStringToInt()
 
 	fmt.Println(tasks)
 }
