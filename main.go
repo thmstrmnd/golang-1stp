@@ -1,7 +1,7 @@
 package main
 
 import (
-	"1stp-golang/tasks"
+	"1stp-golang/poc"
 	"fmt"
 )
 
@@ -24,7 +24,10 @@ func main() {
 	// stringFromInt64 := tasks.Int64ToString()
 	// fmt.Println(stringFromInt64)
 
-	ratNum := tasks.BigRational()
-	fmt.Println(ratNum)
+	// ratNum := tasks.BigRational()
+	// fmt.Println(ratNum)
+
+	methodsPoc1 := poc.MethodsPoc()
+	fmt.Println(methodsPoc1)
 
 }
