@@ -1,4 +1,4 @@
-package proofs
+package poc
 
 import "fmt"
 

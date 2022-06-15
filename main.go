@@ -12,13 +12,13 @@ func main() {
 	// tasks := tasks.IntCap()
 	// fmt.Println(tasks)
 
-	// proofOne := proofs.FlawedFloat64One()
+	// proofOne := poc.FlawedFloat64One()
 	// fmt.Println(proofOne)
 
-	// proofTwo := proofs.FlawedFloat64Two()
+	// proofTwo := poc.FlawedFloat64Two()
 	// fmt.Println(proofTwo)
 
-	// proofThree := proofs.FlawedFloat64Three()
+	// proofThree := poc.FlawedFloat64Three()
 	// fmt.Println(proofThree)
 
 	// stringFromInt64 := tasks.Int64ToString()
