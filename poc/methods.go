@@ -17,8 +17,9 @@ type User struct {
 	Age    int
 }
 
-func (u User) GetStatus() {
+func (u User) GetStatus() bool{
 	fmt.Println("Is user active:", u.Status)
+	return u.Status
 }
 
 func (u User) GetAge() {

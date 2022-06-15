@@ -5,7 +5,21 @@ import (
 	"fmt"
 )
 
+type Border interface {
+	Perimeter() float64
+}
+
+func printBorder(b Border) {
+	fmt.Println(b.Perimeter())
+}
+
 func main() {
+	c := poc.Circle{5}
+	r := poc.Rectangle{20, 10}
+
+	printBorder(c)
+	printBorder(r)
+
 	// tasks := tasks.DecNumStringToInt()
 	// fmt.Println(tasks)
 
@@ -27,7 +41,7 @@ func main() {
 	// ratNum := tasks.BigRational()
 	// fmt.Println(ratNum)
 
-	methodsPoc1 := poc.MethodsPoc()
-	fmt.Println(methodsPoc1)
+	// methodsPoc1 := poc.MethodsPoc()
+	// fmt.Println(methodsPoc1)
 
 }
